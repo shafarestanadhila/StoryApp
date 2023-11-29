@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/menu1"
+            android:title="@string/menu_1" />
+        <item
+            android:id="@+id/menu2"
+            android:title="@string/menu_2" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="@string/menu_3"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/navy</item>
+        <item name="colorSecondaryVariant">@color/navy</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- splash screen -->
+    <style name="SplashScreenStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:layout">@layout/activity_splash_screen</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Maps -->
+    <style name="MapsStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:layout">@layout/activity_maps</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:itemBackground">@color/navy</item>
+    </style>
+
+    <!-- Main -->
+    <style name="MainStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:layout">@layout/activity_main</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:itemBackground">@color/navy</item>
+    </style>
+
+    <style name="Caption">
+        <item name="android:textColor">@color/text_black_transparent</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text2">
+        <item name="android:textColor">@color/navy</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/navy</item>
+    </style>
+
+    <style name="ButtonRetry">
+        <item name="android:background">@drawable/ic_button_transparent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.StoryApp" parent="Base.Theme.StoryApp" />
+</resources>
